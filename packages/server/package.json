@@ -1,0 +1,7 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "API Server for Tinker",
+  "main": "index.js",
+  "license": "MIT"
+}
