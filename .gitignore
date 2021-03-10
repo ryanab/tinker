@@ -1,3 +1,4 @@
+### Web ###
 # Took .gitignore from https://github.com/vercel/next.js/blob/canary/examples/with-typescript-eslint-jest/.gitignore
 # and moved to the repo root prefixing all with monorepo subfolder (packages/web)
 
@@ -36,5 +37,8 @@
 # vercel
 /packages/web/.vercel
 
+### Server ###
+/packages/server/dist
 
+### Generic ###
 node_modules/
