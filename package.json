@@ -7,8 +7,15 @@
   "author": "Ryan Byrne <ryanabyrne@gmail.com>",
   "license": "MIT",
   "private": true,
-  "workspaces":["packages/*"],
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
-    "dev": "yarn --cwd packages/web dev"
+    "dev-web": "yarn --cwd packages/web dev",
+    "dev-server": "yarn --cwd packages/server dev",
+    "dev": "concurrently npm:dev-*"
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.0"
   }
 }
