@@ -1,0 +1,11 @@
+{
+  "name": "tinker",
+  "version": "1.0.0",
+  "description": "App for moms and JS friends",
+  "main": "index.js",
+  "repository": "https://github.com/ryanab/tinker.git",
+  "author": "Ryan Byrne <ryanabyrne@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces":["packages/*"]
+}
