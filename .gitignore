@@ -1,1 +1,40 @@
+# Took .gitignore from https://github.com/vercel/next.js/blob/canary/examples/with-typescript-eslint-jest/.gitignore
+# and moved to the repo root prefixing all with monorepo subfolder (packages/web)
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/packages/web/node_modules
+/packages/web/.pnp
+/packages/web.pnp.js
+
+# testing
+/packages/web/coverage
+
+# next.js
+/packages/web/.next/
+/packages/web/out/
+
+# production
+/packages/web/build
+
+# misc
+/packages/web/.DS_Store
+/packages/web*.pem
+
+# debug
+/packages/web/npm-debug.log*
+/packages/web/yarn-debug.log*
+/packages/web/yarn-error.log*
+
+# local env files
+/packages/web/.env.local
+/packages/web/.env.development.local
+/packages/web/.env.test.local
+/packages/web/.env.production.local
+
+# vercel
+/packages/web/.vercel
+
+
 node_modules/
